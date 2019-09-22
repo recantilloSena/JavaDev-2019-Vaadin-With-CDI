@@ -5,20 +5,11 @@ It contains all the necessary configuration and some placeholder files to get yo
 
 The best way to use it is via [vaadin.com/start](https://vaadin.com/start) - you can get only the necessary parts and choose the package naming you want to use.
 
-Import the project to the IDE of your choosing as a Maven project. 
+Para la Versión 14 de Vaadin se requiere JDK8 o superior y node 10 en el cleinte.
 
-Run application using
-```
-mvn clean package tomee:run
-```
+# PASO 1.  Un simple "Hola Mundo con Vaadin and CDI"
 
-Open [http://localhost:8080/](http://localhost:8080/) in browser.
+# PASO 2.  Uso de @Inject Sobre las Vistas de Vaadin utilizardo la base de Datos Derby.
 
-If you want to run your app locally in the production mode, run using
-```
-mvn clean package tomee:run -Pproduction
-```
+# PASO 3.  Ejemplo sencillo de Binding de Datos en Vaadin Flow.
 
-For documentation on using Vaadin Flow and CDI, visit [vaadin.com/docs](https://vaadin.com/docs/v10/flow/cdi/tutorial-cdi-basic.html)
-
-For more information on Vaadin Flow, visit https://vaadin.com/flow.
